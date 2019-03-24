@@ -15,10 +15,7 @@
     			$(document.body).animate({scrollTop: 0}, 800);
 
 			 });
-			$(document).ready(function() {
-				$("header.header a").addClass("animated bounce");
- 			 });
-			}
+			$("#menu").slideDown("fast"); 
 		</script>
 	
 	</head> 
@@ -28,6 +25,14 @@
 		<!-- Header -->
 			<header id="header">
 				<a href="index.html" class="logo"><strong>Sanford</strong>'s Blog</a>
+				<style type="text/css">  
+  					#menu {display: none}  
+				</style>  
+				<ul id="menu">  
+  					<li><a href="#1">控制面板首頁</a></li>  
+  					<li><a href="#2">編輯個人資料</a></li>  
+  					<li><a href="#3">個人空間管理</a></li>  
+				</ul> 
 			</header>
 
 
