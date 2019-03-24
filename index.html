@@ -12,7 +12,7 @@
 		<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 
 		<script>
-			$("button").click(function (e) { 
+			$("#top").click(function (e) { 
      			e.preventDefault();
     			$(document.body).animate({scrollTop: 0}, 800);
 
@@ -78,11 +78,14 @@
 				</div>
 			</article>
 
-			<button class="btn btn-default target" id="target1">△</button>
+			
 		<!-- Footer -->
 
 			<footer id="footer">
-				<!--<button class="btn btn-default target" id="target1">△</button>-->
+				<ul class="actions">
+					<li><a class="button alt" id="top">△</a></li>
+					</ul>
+				<!--<button class="btn btn-default target" id="target1"></button>-->
 				<ul class="icons">
 					<li><a href="https://pin.it/rqfzsnuzbtgbzc" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
 					<li><a href="https://www.facebook.com/hoohvw" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
