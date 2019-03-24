@@ -12,7 +12,7 @@
 		<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 
 		<script>
-			$('button.a.top').click(function (e) { 
+			$("#top").click(function (e) { 
      			e.preventDefault();
     			$(document.body).animate({scrollTop: 0}, 800);
 
@@ -82,9 +82,9 @@
 		<!-- Footer -->
 
 			<footer id="footer">
-				<button>
-					<a class="top" href="#">Back to top</a>
-				</button>
+				
+				<a href="#" id="top">Back to top</a>
+				
 				 
 				<!--<button class="btn btn-default target" id="target1"></button>-->
 				<ul class="icons">
